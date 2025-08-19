@@ -10,7 +10,7 @@ ObJeCT_KEY_NAME = 'result.html'
 
 def lambda_handler(event, context):
 
-    event["number"] *= 5
+    event["number"] *= 15
 
     response = lambda_client.invoke(
 
